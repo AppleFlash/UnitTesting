@@ -1,0 +1,14 @@
+sources:
+  include:
+    - ../UnitTesting
+templates:
+  - Mock.swifttemplate
+output: 
+  Mock.generated.swift
+args:
+  testable:
+    - UnitTesting
+  import:
+    - Combine
+  excludedSwiftLintRules:
+    - all
