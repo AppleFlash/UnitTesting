@@ -81,7 +81,7 @@ final class SimplePresenterTests: XCTestCase {
 	// Тест всегда падает!
 	// Тест проверяет тот же сценарий, что и 1 и 2 версия подобного теста, но использует ImmediateScheduler.
 	// Показана ситуация в которой нельзя применить ImmediateScheduler
-	func test_updateText_withTestScheduler_version3() {
+	func test_updateText_withTestScheduler_version3_NOT_WORK() {
 		// given
 		let scheduler = RunLoop.immediate
 		setupPresenter(with: scheduler.eraseToAnyScheduler())
@@ -120,7 +120,7 @@ final class SimplePresenterTests: XCTestCase {
 	
 	// Тест всегда падает!
 	// Тот же пример, что и в тесте выше, но с использованием RunLoop.main. Тест асинхронный, в синхронном режиме падаем
-	func test_findCity_withRunLoopMainScheduler() {
+	func test_findCity_withRunLoopMainScheduler_NOT_WORK() {
 		// given
 		let scheduler = RunLoop.main
 		setupPresenter(with: scheduler.eraseToAnyScheduler())

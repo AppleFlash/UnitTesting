@@ -16,7 +16,6 @@
 		00C1E283275649A1009341EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1E282275649A1009341EA /* ContentView.swift */; };
 		00C1E285275649A3009341EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C1E284275649A3009341EA /* Assets.xcassets */; };
 		00C1E288275649A3009341EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C1E287275649A3009341EA /* Preview Assets.xcassets */; };
-		00C1E292275649A4009341EA /* UnitTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1E291275649A3009341EA /* UnitTestingTests.swift */; };
 		00C1E2AC27564A2C009341EA /* SwiftyMocky in Frameworks */ = {isa = PBXBuildFile; productRef = 00C1E2AB27564A2C009341EA /* SwiftyMocky */; };
 		00C1E2BB27564A81009341EA /* SimplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1E2B127564A81009341EA /* SimplePresenter.swift */; };
 		00C1E2BC27564A81009341EA /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1E2B327564A81009341EA /* SimpleView.swift */; };
@@ -55,7 +54,6 @@
 		00C1E284275649A3009341EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C1E287275649A3009341EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00C1E28D275649A3009341EA /* UnitTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00C1E291275649A3009341EA /* UnitTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingTests.swift; sourceTree = "<group>"; };
 		00C1E2B127564A81009341EA /* SimplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePresenter.swift; sourceTree = "<group>"; };
 		00C1E2B327564A81009341EA /* SimpleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
 		00C1E2B627564A81009341EA /* SimpleInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleInteractorProtocol.swift; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 				006514D82757EEB000801E90 /* Helpers */,
 				00C1E2D727564E5B009341EA /* SimpleModuleTests */,
 				00C1E2C327564BED009341EA /* Mock.generated.swift */,
-				00C1E291275649A3009341EA /* UnitTestingTests.swift */,
 			);
 			path = UnitTestingTests;
 			sourceTree = "<group>";
@@ -400,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C1E2C427564BED009341EA /* Mock.generated.swift in Sources */,
-				00C1E292275649A4009341EA /* UnitTestingTests.swift in Sources */,
 				00ECD84D2758B99400AD6ED4 /* SimplePresenterTests.swift in Sources */,
 				006514D72757EDBC00801E90 /* SimpleModuleInteractorTests.swift in Sources */,
 				006514DA2757EEBB00801E90 /* BackgroundTestable.swift in Sources */,

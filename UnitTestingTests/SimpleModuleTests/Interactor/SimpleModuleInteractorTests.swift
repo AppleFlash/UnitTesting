@@ -35,7 +35,7 @@ class SimpleModuleInteractorTests: XCTestCase, BackgroundTestable {
 	// Потому что замыкание, которое сообщает о завершении операции сохраненя вызывается не на backgroundQueue
 	// Главный поток заблокирован до тех пор, пока есть задачи на backgroundQueue, как только задачи кончаются происходит разблокировка
 	// главного потока и выполнение теста продолжается. Замыкание завершения же выполняется асинхронно на главном потоке чуть позже
-	func test_saveCities_mainQueueCompletion_failure() {
+	func test_saveCities_mainQueueCompletion_NOT_WORK() {
 		// given
 		let cities = [City(name: "1", isVisited: false), City(name: "2", isVisited: false)]
 		
